@@ -1,0 +1,8 @@
+# Runtime dependencies
+streamlit>=1.50,<2
+requests>=2.31,<3
+pandas>=2.2,<4
+plotly>=5.24,<8
+
+# Development / testing only (needed for "python -m pytest")
+pytest>=8.0,<10

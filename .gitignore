@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.venv/
+
+# Secrets - never commit these
+.env
+.streamlit/secrets.toml
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
